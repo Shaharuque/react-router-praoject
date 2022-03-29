@@ -1,0 +1,15 @@
+.product-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.button-style{
+    margin-top: 15px;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    background-color: cadetblue;
+    color: white;
+    padding: 5px;
+}
