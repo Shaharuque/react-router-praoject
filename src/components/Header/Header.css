@@ -1,0 +1,21 @@
+.navBar{
+    background-color: rgb(14, 73, 73);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.customLink-style{
+    display: flex;
+}
+
+.LinkStyle{
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 700;
+    color: rgb(136, 83, 185);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.LinkStyle:hover{
+    color: white;
+}

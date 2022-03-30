@@ -6,7 +6,7 @@ const Products = () => {
     const [products, setProducts]=useState([])
     //fetch data from api
     useEffect(()=>{
-        fetch('data.json')
+        fetch('https://jsonplaceholder.typicode.com/users')
         .then(res=> res.json())
         .then(data=>setProducts(data))
     },[])

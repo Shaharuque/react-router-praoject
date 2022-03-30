@@ -8,6 +8,7 @@ import About from './components/About/About';
 import { Route, Routes } from 'react-router-dom';
 import NotFound from './components/Notfound/NotFound';
 import Header from './components/Header/Header';
+import ProductDetails from './components/productDetails/ProductDetails';
 function App() {
   return (
     <div >
@@ -16,7 +17,9 @@ function App() {
         <Route path="/" element={<Home />}> </Route>
         <Route path="/products" element={<Products />} />
         <Route path="/about" element={<About />} />
-        {/*if kono path match na korley NotFound componenet show korbo*/}
+        <Route path='/product_details/:productId' element={<ProductDetails></ProductDetails>}></Route>
+
+        {/*if kono path match na korley NotFound componenet show/render korbo*/}
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
