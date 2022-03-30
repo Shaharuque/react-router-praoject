@@ -1,0 +1,9 @@
+.postdetails{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(5, 91, 117);
+    color: white;
+    border-radius: 20px;
+}

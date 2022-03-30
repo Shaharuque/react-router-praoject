@@ -14,10 +14,12 @@ const Header = () => {
             {/*to solve the page reloading problem we will use  '<Link to="/">Home</Link>' in the place of '<a href="/">Home</a>'*/}
                 {/*<Link className='LinkStyle' to="/">Home</Link>
                 <Link className='LinkStyle' to="/products">Products</Link>
+                <Link className='LinkStyle' to="/posts">Posts</Link>
                 <Link className='LinkStyle' to="/about">About</Link>*/}
 
                 <CustomLink className='LinkStyle' to="/">Home</CustomLink>
                 <CustomLink className='LinkStyle' to="/products">Products</CustomLink>
+                <CustomLink className='LinkStyle' to="/posts">Posts</CustomLink>
                 <CustomLink className='LinkStyle' to="/about">About</CustomLink>
             </ul>
         </div>
